@@ -1,0 +1,460 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+      <!-- Carousel Start -->
+      <div class="header-carousel">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="{% static 'img/backg_1.jpg' %}" class="img-fluid w-100" alt="First slide"/>
+
+                    <div class="carousel-caption">
+                        <div class="container py-4">
+                            <div class="row g-5">
+                                
+                                <div class="col-lg-6 d-none d-lg-flex fadeInRight animated" data-animation="fadeInRight" data-delay="1s" style="animation-delay: 1s;">
+                                    <div class="text-start">
+                                        <h1 class="display-5 text-white">Ensemble, bâtissons l'Afrique</h1>
+                                        <p>Nous sommes a votre service!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="{% static 'img/backg_2.jpg' %}" class="img-fluid w-100" alt="First slide"/>
+
+                    <div class="carousel-caption">
+                        <div class="container py-4">
+                            <div class="row g-5">
+                                
+                                <div class="col-lg-6 d-none d-lg-flex fadeInRight animated" data-animation="fadeInRight" data-delay="1s" style="animation-delay: 1s;">
+                                    <div class="text-start">
+                                        <h1 class="display-5 text-white">Chaque projet est unique : laissez-nous créer un espace qui reflète votre style et vos besoins.</h1>
+                                        <p>Contactez nous maintenant!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Features Start -->
+    <div class="container-fluid feature py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h1 class="display-5 text-capitalize mb-3">Nos <span class="text-blue">Valeurs</span></h1>
+                <p class="mb-0"> Découvrez nos valeurs
+                </p>
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-xl-4">
+                    <div class="row gy-4 gx-0">
+                        <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <span class="fa fa-trophy fa-2x"></span>
+                                </div>
+                                <div class="ms-4">
+                                    <h5 class="mb-3">Qualité</h5>
+                                    <p class="mb-0">S'engager à fournir des matériaux et un savoir-faire de premier choix pour garantir la durabilité et l'esthétique des constructions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <span class="fa fa-road fa-2x"></span>
+                                </div>
+                                <div class="ms-4">
+                                    <h5 class="mb-3">Innovation</h5>
+                                    <p class="mb-0">Intégrer des techniques modernes et des solutions durables pour répondre aux besoins actuels et futurs des clients.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <img src="{% static 'img/Ciel.jpg' %}" class="img-fluid w-100" style="object-fit: cover;" alt="Img">
+
+                </div>
+                <div class="col-xl-4">
+                    <div class="row gy-4 gx-0">
+                        <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="feature-item justify-content-end">
+                                <div class="text-end me-4">
+                                    <h5 class="mb-3">Écoute</h5>
+                                    <p class="mb-0">Être à l'écoute des clients pour comprendre leurs attentes et personnaliser chaque projet selon leurs souhaits.</p>
+                                </div>
+                                <div class="feature-icon">
+                                    <span class="fa fa-tag fa-2x"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="feature-item justify-content-end">
+                                <div class="text-end me-4">
+                                    <h5 class="mb-3">Intégrité</h5>
+                                    <p class="mb-0">Agir avec transparence et honnêteté, en respectant les délais et les budgets convenus pour établir une relation de confiance avec les clients.</p>
+                                </div>
+                                <div class="feature-icon">
+                                    <span class="fa fa-map-pin fa-2x"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+    <!-- Services Start -->
+    <div class="container-fluid service py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h1 class="display-5 text-capitalize mb-3">Nos <span class="text-blue ">Services</span></h1>
+                <p class="mb-0">Explorez nos services et laissez-nous transformer vos idées en réalité, avec des solutions sur mesure pour chaque projet de construction
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item p-4">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-building fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">Construction des Batiments</h5>
+                        <i class="mb-0">nous croyons que l'architecture est bien plus qu'une discipline technique : c'est un art qui façonne les espaces où nous vivons, travaillons et rêvons. Notre équipe d'experts passionnés est dédiée à créer des solutions sur mesure qui répondent à vos besoins tout en respectant les normes les plus exigeantes.
+
+                            Nos Services
+                            
+                            1. Conception architecturale
+                            
+                            Nous transformons vos idées en réalité avec des designs innovants et fonctionnels, adaptés à votre style et à votre vision. Que ce soit pour des résidences privées, des immeubles commerciaux ou des espaces publics, chaque projet est unique.
+                            
+                            2. Études de faisabilité
+                            
+                            Avant de lancer un projet, nous réalisons des études complètes pour évaluer sa viabilité technique, économique et environnementale. Cela vous permet de prendre des décisions informées et stratégiques.
+                            
+                            </i>
+                            <i class="mb-0"> 3. Plans et modélisation 3D
+                            
+                            Nous utilisons des technologies avancées pour créer des plans précis et des visualisations 3D immersives. Cela vous donne une vision claire et réaliste de votre futur projet.
+                            
+                            4. Gestion de projets architecturaux
+                            
+                            De la conception à la réalisation, nous assurons une gestion complète de vos projets. Nous coordonnons chaque étape pour garantir le respect des délais, des budgets et des standards de qualité.
+                            
+                            5. Conseils en durabilité et innovation
+                            
+                            Nous intégrons des solutions écoresponsables et des techniques innovantes pour créer des espaces durables, efficaces et en harmonie avec l'environnement.
+                              
+                        </i>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-money-bill-alt fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">Aménagement des villes</h5>
+                        <p class="mb-0">Prise en charge de l'ensemble du processus de construction, de la fondation à la finition.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-road fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">Etude Architecturale </h5>
+                        <p class="mb-0">Analyser l'architecture existante, identifier les potentialités spatiales et proposer des solutions innovantes d'aménagement urbain.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item p-4">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-umbrella fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">Etude d'Urbanisme</h5>
+                        <p class="mb-0">Étudier et planifier l'aménagement urbain pour améliorer la qualité de vie, l'environnement et le développement harmonieux du territoire</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-building fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">Ingénierie & Topographie </h5>
+                        <p class="mb-0">Concevoir et implémenter des solutions techniques précises pour mesurer, cartographier et analyser les caractéristiques topographiques du territoire.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-car-alt fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">Vente et Location des matériaux de Construction</h5>
+                        <p class="mb-0">Proposer des solutions de location et vente flexibles, adaptées aux besoins variés des professionnels du bâtiment, avec un service client optimal.</p>
+                </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item p-4">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-car-alt fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">Gestion immobiliere </h5>
+                        <p class="mb-0">Optimiser la gestion locative, maximiser les revenus, minimiser les risques et assurer la valorisation du patrimoine immobilier.</p>
+                    </div>
+                </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item p-4">
+                            <div class="service-icon mb-4">
+                                <i class="fa fa-car-alt fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Formation BTP </h5>
+                            <p class="mb-0">Développer des compétences techniques et sécuritaires pour professionnaliser et valoriser les talents dans le secteur du bâtiment et travaux publics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid blog py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h1 class="display-5 text-capitalize mb-3">Nos<span class="text-blue "> réalisations</span></h1>
+                <p class="mb-0">Découvrez nos réalisations : chaque projet est une preuve de notre savoir-faire et de notre engagement à créer des maisons qui allient esthétique, confort et fonctionnalité
+                </p>
+            </div>
+           
+            <div class="row g-4">
+                {% for article in liste_articles%}
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="{{ article.image.url}}" class="img-fluid rounded-top w-100" alt="image non chargée">
+                            <a href="{% url 'detail' article.id %}">
+
+                        </div>
+                        <div class="blog-content rounded-bottom p-4">
+                            <div class="blog-date">{{article.created_at|timesince}}</div>
+
+                                          
+                            <a href="{% url 'detail' article.id %}" class="h4 d-block mb-3">{{article.title}}</a>
+                            <p class="mb-3">{{article.desc|truncatewords:8}}</p>
+                            <a href="{% url 'detail' article.id %}"  class=""> Lire la suite  <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                {%endfor%}
+            </div>
+        
+        </div>
+    </div>
+    
+    <!-- Blog End -->
+
+    <!-- Banner Start -->
+    <div class="container-fluid banner pb-5 wow zoomInDown" data-wow-delay="0.1s">
+        <div class="container pb-5">
+            <div class="banner-item rounded">
+                <img src="{% static 'img/location.jpg' %}" class="img-fluid rounded w-100" alt="">
+
+                <div class="banner-content">
+                    <h2 class="text-white">Construire avec Sureté</h2>
+                    <h1 class="text-white">Votre Maison</h1>
+                    <p class="text-white">N'hésitez pas et envoyez-nous un message.</p>
+                    <div class="banner-btn">
+                        <a href="https://www.facebook.com/profile.php?id=61567803184709&mibextid=ZbWKwL" class="btn btn-secondary rounded-pill py-3 px-4 px-md-5 me-2">facebook</a>
+                        <a href="{% url 'contact' %}" class="btn btn-secondary rounded-pill py-3 px-4 px-md-5 me-2">Contactez nous </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- Team Start -->
+    <div class="container-fluid team pb-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h1 class="display-5 text-capitalize mb-3"><span class="text-blue">Notre </span> Equipe</h1>
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita asperiores commodi accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam quia distinctio,
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item p-4 pt-0">
+                        <div class="team-img">
+                            <img src="{% static 'img/personne-1.jpg' %}" class="img-fluid rounded w-100" alt="Image">
+
+                        </div>
+                        <div class="team-content pt-4">
+                            <h4>NOUBAYAMAL DJIADITA Éloge</h4>
+                            <p>Directeur Général</p>
+                            <div class="team-icon d-flex justify-content-center">
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item p-4 pt-0">
+                        <div class="team-img">
+                            <img src="{% static 'img/personne-2.jpg' %}" class="img-fluid rounded w-100" alt="Image">
+
+                        </div>
+                        <div class="team-content pt-4">
+                            <h4>Manuel ADOUMTOG TOHOU</h4>
+                            <p>Directeur Technique</p>
+                            <div class="team-icon d-flex justify-content-center">
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item p-4 pt-0">
+                        <div class="team-img">
+                            <img src="{% static 'img/personne-3.jpg' %}" class="img-fluid rounded w-100" alt="Image">
+
+                        </div>
+                        <div class="team-content pt-4">
+                            <h4>COMPAORE wassila</h4>
+                            <p>Secretaire Comptable</p>
+                            <div class="team-icon d-flex justify-content-center">
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item p-4 pt-0">
+                        <div class="team-img">
+                            <img src="{% static 'img/personne-4.jpg' %}" class="img-fluid rounded w-100" alt="Image">
+
+                        </div>
+                        <div class="team-content pt-4">
+                            <h4>Axelle</h4>
+                            <p>Assistante architecte</p>
+                            <div class="team-icon d-flex justify-content-center">
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+       
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial pb-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h1 class="display-5 text-capitalize mb-3">Avis de nos<span class="text-blue "> clients</span></h1>
+                <p class="mb-0">
+                </p>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item">
+                    <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                    </div>
+                    <div class="testimonial-inner p-4">
+                        <img src="{% static 'img/testimonial-1.jpg' %}" class="img-fluid" alt="">
+
+                        <div class="ms-4">
+                            <h4>MARIA SOME</h4>
+                            <p>Profession</p>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star text-body"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-top rounded-bottom p-4">
+                        <p class="mb-0">Nous avons été ravis de notre expérience avec [Nom de l'entreprise]. Leur équipe a su écouter nos besoins et a transformé notre vision en réalité. La qualité de la construction est exceptionnelle et nous nous sentons vraiment chez nous !</p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                    </div>
+                    <div class="testimonial-inner p-4">
+                        <img src="{% static 'img/testimonial-2.jpg' %}" class="img-fluid" alt="">
+
+                        <div class="ms-4">
+                            <h4>BEKINGALAR André</h4>
+                            <p>Profession</p>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star text-body"></i>
+                                <i class="fas fa-star text-body"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-top rounded-bottom p-4">
+                        <p class="mb-0">Un grand merci à NGSAC pour leur professionnalisme et leur attention aux détails. Chaque étape du projet a été gérée avec soin, et nous avons apprécié leur transparence tout au long du processus. Nous recommandons vivement leurs services !</p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                    </div>
+                    <div class="testimonial-inner p-4">
+                        <img src="{% static 'img/testimonial-3.jpg' %}" class="img-fluid" alt="">
+
+                        <div class="ms-4">
+                            <h4> Tagnan Aziz</h4>
+                            <p>Profession</p>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star text-body"></i>
+                                <i class="fas fa-star text-body"></i>
+                                <i class="fas fa-star text-body"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-top rounded-bottom p-4">
+                        <p class="mb-0">La maison contemporaine que nous avons construite avec NGSAC dépasse nos attentes. Le design est à la fois élégant et fonctionnel, et l’équipe a été incroyable à chaque étape. Nous ne pourrions pas être plus heureux de notre choix !</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    {% endblock content %}
